@@ -2,6 +2,9 @@
 
 A comprehensive healthcare application built with React, TypeScript, and Tailwind CSS. This app provides AI-powered symptom checking, doctor discovery, health history tracking, and an intelligent health assistant.
 
+## APP Link   
+https://your-care-app.vercel.app/
+
 ## 🏥 Features
 
 ### 1. AI Assistant
