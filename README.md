@@ -293,10 +293,6 @@ This project is built for educational and demonstration purposes. All medical in
 
 Contributions are welcome! Please ensure any medical information added is from reputable sources and includes appropriate disclaimers.
 
-## 📞 Support
-
-For technical support or questions about the application, please create an issue in the repository.
-
 ---
 
 **Remember: This app is for educational purposes only. Always seek professional medical advice for health concerns.**
