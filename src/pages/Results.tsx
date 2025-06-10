@@ -184,11 +184,6 @@ export const Results: React.FC = () => {
                           className="flex items-center justify-between"
                         >
                           <span className="text-sm">{specialist}</span>
-                          <Link to="/doctors" state={{ specialty: specialist }}>
-                            <Button variant="outline" size="sm">
-                              Find Doctors
-                            </Button>
-                          </Link>
                         </div>
                       ),
                     )}
@@ -228,11 +223,6 @@ export const Results: React.FC = () => {
                   <Button onClick={handleSaveToHistory} className="w-full">
                     Save Results
                   </Button>
-                  <Link to="/doctors" className="block">
-                    <Button variant="outline" className="w-full">
-                      Find Doctors
-                    </Button>
-                  </Link>
                   <Link to="/assistant" className="block">
                     <Button variant="outline" className="w-full">
                       Ask AI Assistant

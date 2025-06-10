@@ -212,16 +212,6 @@ export const PredictionResult: React.FC<PredictionResultProps> = ({
           <RefreshCw className="h-4 w-4 mr-2" />
           New Symptom Analysis
         </Button>
-
-        <Button
-          variant="outline"
-          size="lg"
-          className="flex-1 max-w-xs"
-          onClick={() => window.open("/doctor-locator", "_blank")}
-        >
-          <Stethoscope className="h-4 w-4 mr-2" />
-          Find Nearby Doctors
-        </Button>
       </div>
 
       {/* Additional Information */}

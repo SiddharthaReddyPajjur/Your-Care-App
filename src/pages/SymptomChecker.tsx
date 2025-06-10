@@ -289,13 +289,6 @@ export const SymptomChecker: React.FC = () => {
                   <Button onClick={handleNewAnalysis} size="lg">
                     New Analysis
                   </Button>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    onClick={() => window.open("/doctors", "_blank")}
-                  >
-                    Find Doctors
-                  </Button>
                 </div>
               </div>
             </div>

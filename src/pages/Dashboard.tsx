@@ -30,13 +30,6 @@ const quickActions = [
     color: "bg-blue-500",
   },
   {
-    title: "Find Doctors",
-    description: "Locate nearby healthcare providers and specialists",
-    icon: MapPin,
-    href: "/doctors",
-    color: "bg-green-500",
-  },
-  {
     title: "AI Assistant",
     description: "Chat with our AI for personalized health guidance",
     icon: Bot,
@@ -124,7 +117,7 @@ export const Dashboard: React.FC = () => {
                 Welcome
                 {isAuthenticated && user
                   ? `, ${user.firstName}`
-                  : " to HealthCare"}
+                  : " to Your Care"}
               </h1>
               <p className="text-muted-foreground">
                 {isAuthenticated

@@ -47,11 +47,6 @@ const navigationItems = [
     icon: Stethoscope,
   },
   {
-    name: "Find Doctors",
-    href: "/doctors",
-    icon: MapPin,
-  },
-  {
     name: "Health History",
     href: "/history",
     icon: History,
@@ -124,7 +119,7 @@ export const Navigation: React.FC = () => {
         <div className="flex items-center gap-2 mr-6">
           <Heart className="h-6 w-6 text-primary" />
           <Link to="/" className="font-bold text-xl">
-            HealthCare
+            Your Care
           </Link>
         </div>
 
@@ -163,11 +158,6 @@ export const Navigation: React.FC = () => {
                     <User className="mr-2 h-4 w-4" />
                     <span>Profile</span>
                   </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <Settings className="mr-2 h-4 w-4" />
-                    <span>Settings</span>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
                   <DropdownMenuItem onClick={handleSignOut}>
                     <LogOut className="mr-2 h-4 w-4" />
                     <span>Sign out</span>

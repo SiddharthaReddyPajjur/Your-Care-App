@@ -198,7 +198,7 @@ export const SignUpModal: React.FC<SignUpModalProps> = ({
             Create Account
           </DialogTitle>
           <DialogDescription className="text-center">
-            Join HealthCare to start your wellness journey
+            Join Your Care to start your wellness journey
           </DialogDescription>
         </DialogHeader>
 
