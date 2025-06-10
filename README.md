@@ -13,27 +13,11 @@ A comprehensive healthcare application built with React, TypeScript, and Tailwin
 
 ### 2. Symptom Checker
 
-- Interactive selection from 60+ symptoms across 8 categories
+- Interactive selection from  symptoms across 8 categories
 - AI-powered disease prediction and analysis
 - Medical triage with urgency levels
-- Confidence scoring for predictions
 
-### 3. Disease Prediction & Triage
-
-- Analysis of multiple potential conditions
-- Risk assessment with urgency levels (Low, Medium, High, Emergency)
-- Recommended specialist types
-- Treatment timeframe guidance
-
-### 4. Doctor Locator
-
-- Find nearby healthcare providers
-- Filter by specialty and location
-- Doctor profiles with ratings and experience
-- Appointment booking interface
-- Distance-based sorting
-
-### 5. Health History Tracking
+### 3. Health History Tracking
 
 - Complete consultation history
 - Search and filter capabilities
@@ -99,7 +83,7 @@ pnpm dev
 ### State Management
 
 - **React Context** - Global health app state
-- **localStorage** - Data persistence
+- **Firebase Storage** - Data persistence
 - **TanStack Query** - Server state management
 
 ### Key Features
@@ -171,7 +155,6 @@ Global state management for:
 
 - **Symptom** - Individual symptoms with categories and severity
 - **Disease** - Medical conditions with symptom mappings
-- **Doctor** - Healthcare provider profiles
 - **PredictionResult** - AI analysis results with triage
 - **HealthHistory** - Historical consultation records
 
@@ -198,7 +181,7 @@ Global state management for:
 
 ## 🔐 Data & Privacy
 
-### Local Storage
+### Firebase Storage
 
 - Health history stored locally
 - User preferences and settings
